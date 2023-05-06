@@ -45,9 +45,7 @@ function buildTile(color) {
             awaitingEndOfMove = false;
             revealedCount += 2;
 
-            if (revealedCount === tileCount) {
-                alert("You win! Refresh to start again.");
-            }
+            if (revealedCount === tileCount) {}
 
             return;
         }
@@ -75,3 +73,7 @@ for (let i = 0; i < tileCount; i++) {
     colorsPicklist.splice(randomIndex, 1);
     tilesContainer.appendChild(tile);
 }
+
+document.getElementById('refreshButton').addEventListener('click', function () {
+    location.reload();
+});
