@@ -2,7 +2,7 @@ Memory Game
 Version: 1.3
 
 Documentation:
-https://mdbootstrap.com/docs/standard/
+https://onelioviera.github.io/memory/
 
 Contact:
 ojvwebdesign@gmail.com
